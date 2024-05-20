@@ -1,23 +1,16 @@
 class Musica:
-    nome = ''
-    artista = ''
-    duracao = int
+    def __init__(self, nome='', artista='', duracao=0):
+        self.nome = nome
+        self.artista = artista
+        self.duracao = duracao
 
-musica1 = Musica()
-musica1.nome = 'Bohemian Rhapsody'
-musica1.artista = 'Queen'
-musica1.duracao = 355
-print(musica1.nome, musica1.artista, musica1.duracao)
+    def __str__(self):
+        return f'{self.nome} | {self.artista} | {self.duracao}'
 
-musica2 = Musica()
-musica2.nome = 'Imagine'
-musica2.artista = 'John Lennon'
-musica2.duracao = 183
-print(musica2.nome, musica2.artista, musica2.duracao)
+musica1 = Musica(nome='Under Pressure', artista='Queen & David Bowie', duracao=248)
+musica2 = Musica(nome='The Trooper', artista='Iron Maiden', duracao=245)
+musica3 = Musica(nome='Hotel California', artista='Eagles', duracao=390)
 
-musica3 = Musica()
-musica3.nome = 'Shape of You'
-musica3.artista = 'Ed Sheeran'
-musica3.duracao = 234
-print(musica3.nome, musica3.artista, musica3.duracao)
-
+print(musica1)
+print(musica2)
+print(musica3)
