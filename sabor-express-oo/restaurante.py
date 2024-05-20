@@ -15,13 +15,7 @@ class Restaurante:
             print(f'{restaurante.nome} | {restaurante.categoria} | {restaurante.ativo}')
 
 
-
 restaurante_praca = Restaurante('Praça', 'Gourmet')
 restaurante_pizza = Restaurante('Pizza Express', 'Pasta')
-
-# restaurantes = [restaurante_praca, restaurante_pizza]
-
-# print(restaurante_praca)
-# print(restaurante_pizza)
 
 Restaurante.listar_restaurantes()
