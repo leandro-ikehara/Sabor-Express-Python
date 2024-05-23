@@ -23,9 +23,9 @@ class Restaurante:
     def alternar_status(self):
         self._ativo = not self._ativo
 
-restaurante_praca = Restaurante('praça', 'Gourmet')
-# restaurante_praca._nome = 'Casa Food'
-restaurante_praca.alternar_status()
-restaurante_pizza = Restaurante('pizza express', 'Pasta')
-
-Restaurante.listar_restaurantes()
+# restaurante_praca = Restaurante('praça', 'Gourmet')
+# # restaurante_praca._nome = 'Casa Food'
+# restaurante_praca.alternar_status()
+# restaurante_pizza = Restaurante('pizza express', 'Pasta')
+#
+# Restaurante.listar_restaurantes()
